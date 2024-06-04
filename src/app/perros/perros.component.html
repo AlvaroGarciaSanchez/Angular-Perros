@@ -1,0 +1,21 @@
+<div class="card" style="width: 18rem;">
+  <img src="../../assets/perro1.jpg" width="200" height="200" class="card-img-top rounded" >
+  <div class="card-body my-5">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<div *ngIf="perros">
+  <!-- Muestra la información de los perros -->
+  <div *ngFor="let perro of perros">
+    <h2>{{ perro.nombre }}</h2>
+    <!-- Otros detalles del perro -->
+  </div>
+</div>
+
+<div *ngIf="!perros">
+  <p>No se encontraron datos.</p>
+</div>

@@ -1,0 +1,14 @@
+*{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+img{
+  width: 85%;
+  height: 85%;
+  margin-top: 5%;
+}
+.card h5,p,a{
+margin-bottom: 5%;
+}
+

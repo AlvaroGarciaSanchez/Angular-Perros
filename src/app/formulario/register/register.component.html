@@ -1,0 +1,31 @@
+
+<div class="wrapper d-flex justify-content-center align-items-center m-auto " id="wrapper">
+
+<div class="form-box register">
+  <h2>Registration</h2>
+  <form action="#" class="hidden" id="form-box register">
+    <div class="input-box">
+      <span class="icon"><img src="../assets/person.png" width="18" height="18"/></span>
+      <input type="text" required>
+      <label>Username</label>
+    </div>
+    <div class="input-box">
+      <span class="icon"><img src="../assets/mail.png" width="18" height="18"/></span>
+      <input type="email" required>
+      <label>Email</label>
+    </div>
+    <div class="input-box">
+      <span class="icon"><img src="../assets/lock-closed.png" width="18" height="18"/></span>
+      <input type="password" required>
+      <label>Password</label>
+    </div>
+    <div class="remember-forgot">
+      <label><input type="checkbox">Agree to the terms & conditions</label>
+    </div>
+    <button type="submit" class="btn">Register</button>
+    <div class="login-register">
+      <p>Already have an account?<a [routerLink]="['/login']"> Login</a>
+    </div>
+  </form>
+</div>
+</div>
